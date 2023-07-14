@@ -11,7 +11,7 @@ struct ContentView: View {
     @State private var aboutMe = ""
     var body: some View {
         ZStack {
-            Color(hue: 0.155, saturation: 0.336, brightness: 0.99)
+            Color(hue: 0.156, saturation: 0.336, brightness: 0.99)
                 .ignoresSafeArea()
             VStack (alignment: .center, spacing: 18) {
                 Image("sun")
